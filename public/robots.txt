@@ -1,0 +1,8 @@
+# robots.txt for Hotel Sigsig website
+# https://hotelsigsig.com/
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://hotelsigsig.com/sitemap.xml
