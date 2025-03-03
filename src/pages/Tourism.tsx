@@ -31,34 +31,10 @@ import {
   const Tourism = () => {
     return (
       <div>
-        {/* Hero Section */}
-        {/* <section className="relative h-[85vh] flex items-center">
-          <div className="absolute inset-0">
-            <div className="absolute inset-0 bg-gradient-to-r from-[#330000]/90 via-[#330000]/70 to-transparent z-10" />
-            <img 
-              src="https://www.turismo.gob.ec/wp-content/uploads/2020/11/KIK5550-3-scaled.jpg"
-              alt="Sígsig Patrimonio Cultural"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <div className="container mx-auto px-4 relative z-20">
-            <div className="max-w-4xl">
-              <div className="mb-6">
-                <Award className="w-16 h-16 text-[var(--color-gold)] mb-4" />
-              </div>
-              <h1 className="text-5xl md:text-7xl font-['Playfair_Display'] text-white mb-6">
-                Sígsig: Patrimonio Cultural del Ecuador
-              </h1>
-              <p className="text-xl text-white/90 mb-8">
-                Descubre un pueblo donde la historia, la cultura y la naturaleza 
-                se entrelazan para crear experiencias únicas.
-              </p>
-            </div>
-          </div>
-        </section> */}
+  
 
  {/* Hero Section Mejorado con Motion */}
- <section className="relative h-[75vh] flex items-center">
+ <section className="relative h-[90vh] flex items-center"> 
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-r from-[#330000]/90 via-[#330000]/70 to-transparent z-10" />
           <img 
@@ -79,9 +55,9 @@ import {
               Un tesoro de historia, cultura y naturaleza donde cada rincón cuenta una historia 
               milenaria. Descubre el encanto de la tierra del sombrero de paja toquilla.
             </p>
-            <button className="metallic-gold text-white px-8 py-4 rounded-full flex items-center text-lg group hover:scale-105 transition-transform mx-auto animate-fadeUp delay-300">
+            {/* <button className="metallic-gold text-white px-8 py-4 rounded-full flex items-center text-lg group hover:scale-105 transition-transform mx-auto animate-fadeUp delay-300">
               Explorar Destinos <ChevronRight className="ml-2 group-hover:translate-x-1 transition-transform" />
-            </button>
+            </button> */}
           </div>
         </div>
       </section>
