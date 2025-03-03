@@ -48,7 +48,7 @@ const Home = () => {
           {/* Contenido a la izquierda - textos ajustados para mejor lectura */}
           <div className="md:w-3/5 flex flex-col justify-center md:pr-8 lg:pr-12 py-8 md:py-0 mt-10">
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-['Playfair_Display'] mb-4 md:mb-6">
-              <span className="text-[var(--color-gold)] drop-shadow-lg">Hotel Sigsig</span>
+              <span className="text-[var(--color-gold)] drop-shadow-lg">Hotel Sígsig</span>
             </h1>
             
             <p className="text-xl sm:text-2xl md:text-2xl lg:text-3xl text-white mb-6 md:mb-8 font-light leading-relaxed">
@@ -328,7 +328,7 @@ const Home = () => {
           <div className="w-12 h-0.5 bg-[var(--color-gold)] mt-1"></div>
         </div>
         <h2 className="text-4xl font-['Playfair_Display'] text-[var(--color-wine-dark)] mb-6">
-          Bienvenidos al Hotel Sigsig
+          Bienvenidos al Hotel Sígsig
         </h2>
         <p className="text-gray-700 leading-relaxed mb-6">
           Ubicado a tan solo una cuadra del terminal terrestre de Sígsig, nuestro hotel ofrece una experiencia auténtica
@@ -348,7 +348,7 @@ const Home = () => {
           nuestra terraza con vistas panorámicas a las montañas que rodean Sígsig.
         </p>
         <p className="text-gray-700 leading-relaxed mb-6">
-          Hotel Sigsig es más que un lugar para hospedarse; somos parte de la comunidad local y nos enorgullece 
+          Hotel Sígsig es más que un lugar para hospedarse; somos parte de la comunidad local y nos enorgullece 
           compartir con nuestros huéspedes las tradiciones, la cultura y la calidez del pueblo sigseño, reconocido 
           por su artesanía en paja toquilla y su rica herencia patrimonial.
         </p>
@@ -406,7 +406,7 @@ const Home = () => {
         {/* Caja de información destacada */}
         <div className="bg-gray-50 p-4 rounded-lg border-l-4 border-[var(--color-gold)] mt-6">
           <h4 className="font-['Playfair_Display'] text-[var(--color-wine-dark)] mb-2">
-            Experiencia Sigsig
+            Experiencia Sígsig
           </h4>
           <p className="text-sm text-gray-700">
             Consulte por nuestros paquetes que incluyen visitas guiadas al Centro Histórico, talleres artesanales de paja toquilla y excursiones a las cascadas y lagunas cercanas.
@@ -445,7 +445,7 @@ const Home = () => {
     <div className="text-center mb-14">
       <div className="w-20 h-0.5 bg-[var(--color-gold)] mx-auto mb-2"></div>
       <h2 className="text-4xl font-['Playfair_Display'] text-[var(--color-wine-dark)] mb-4">
-        Su Experiencia en Hotel Sigsig
+        Su Experiencia en Hotel Sígsig
       </h2>
       <p className="text-gray-600 max-w-2xl mx-auto">
         Disfrute de nuestras confortables habitaciones, servicios exclusivos y 
