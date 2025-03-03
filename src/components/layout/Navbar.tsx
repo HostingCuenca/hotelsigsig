@@ -1,6 +1,4 @@
 
-
-
 // import { useState, useEffect } from 'react';
 // import { useNavigate, useLocation } from 'react-router-dom';
 // import { Menu, X } from 'lucide-react';
@@ -34,10 +32,26 @@
 
 //   // Función que maneja la navegación y actualiza el estado
 //   const handleNavigation = (page: Page) => {
-//     setCurrentPage(page);
-//     navigate(getRouteFromPage(page));
-//     if (isMenuOpen) {
-//       setIsMenuOpen(false);
+//     // Solo navegar si no estamos ya en esa página
+//     if (currentPage !== page) {
+//       setCurrentPage(page);
+//       navigate(getRouteFromPage(page));
+      
+//       // Cerrar el menú móvil si está abierto
+//       if (isMenuOpen) {
+//         setIsMenuOpen(false);
+//       }
+//     } else {
+//       // Si estamos en la misma página, solo hacer scroll al inicio con animación suave
+//       window.scrollTo({
+//         top: 0,
+//         behavior: 'smooth'
+//       });
+      
+//       // Y cerrar el menú móvil si está abierto
+//       if (isMenuOpen) {
+//         setIsMenuOpen(false);
+//       }
 //     }
 //   };
 
@@ -84,7 +98,7 @@
 //               className="focus:outline-none"
 //             >
 //               <img 
-//                 src="/hotelsigsiglogo.png" 
+//                 src="./hotelsigsiglogo.png" 
 //                 alt="Hotel Sigsig" 
 //                 className={`transition-all duration-500 
 //                   ${shouldShowBackground ? 'h-20' : 'h-28'}
@@ -157,6 +171,8 @@ import { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { Page } from '../../types';
+// Import the logo directly
+import logoImage from '/hotelsigsiglogo.png'; // or '../hotelsigsiglogo.png' or the correct relative path
 
 interface NavbarProps {
   currentPage: Page;
@@ -252,7 +268,7 @@ const Navbar = ({ currentPage, setCurrentPage, forceColored = false }: NavbarPro
               className="focus:outline-none"
             >
               <img 
-                src="./hotelsigsiglogo.png" 
+                src={logoImage} 
                 alt="Hotel Sigsig" 
                 className={`transition-all duration-500 
                   ${shouldShowBackground ? 'h-20' : 'h-28'}
