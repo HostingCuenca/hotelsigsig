@@ -252,7 +252,7 @@ const Navbar = ({ currentPage, setCurrentPage, forceColored = false }: NavbarPro
               className="focus:outline-none"
             >
               <img 
-                src="/hotelsigsiglogo.png" 
+                src="./hotelsigsiglogo.png" 
                 alt="Hotel Sigsig" 
                 className={`transition-all duration-500 
                   ${shouldShowBackground ? 'h-20' : 'h-28'}
