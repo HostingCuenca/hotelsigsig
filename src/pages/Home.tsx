@@ -201,7 +201,7 @@ const Home = () => {
               },
               {
                 src: "https://res.cloudinary.com/dzfakhjlh/image/upload/v1740625092/hotelsigsig/a1ojmq64f7ekgiw5upfo.jpg",
-                alt: "Centro Histórico de Sígsig",
+                alt: "Habitación de Hotel Sígsig",
                 label: "Centro Histórico"
               },
               {
